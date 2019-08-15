@@ -1,8 +1,11 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-
+import UserList from "./UserList";
 import "./styles.css";
-
+const userList = [
+  { email: "abcd@gmail.com", gender: "male" },
+  { email: "xyz@gmail.com", gender: "female" }
+];
 class App extends Component {
   constructor(props) {
     super(props);
@@ -36,6 +39,7 @@ class App extends Component {
           <label htmlFor="radioTwo" className="radio">
             radio 2
           </label>
+          <UserList userList={userList} />
         </div>
       </form>
     );
