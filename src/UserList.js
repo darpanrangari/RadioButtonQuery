@@ -39,7 +39,6 @@ class UserList extends Component {
 
   render() {
     const { userList } = this.props;
-
     return (
       <div>
         {this.renderSelect()}
