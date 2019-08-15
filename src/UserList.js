@@ -9,7 +9,6 @@ class UserList extends Component {
   }
 
   renderUser = toMap => {
-    console.log("---", toMap);
     if (toMap) {
       return (
         <List
@@ -40,7 +39,6 @@ class UserList extends Component {
 
   render() {
     const { userList } = this.props;
-    console.log("---render---", userList);
     return (
       <div>
         {this.renderSelect()}
