@@ -1,2 +1,0 @@
-# RadioButtonQuery
-Created with CodeSandbox
