@@ -39,6 +39,7 @@ class App extends Component {
           <label htmlFor="radioTwo" className="radio">
             radio 2
           </label>
+          //https://stackoverflow.com/questions/57507156/component-not-re-rendering-after-onchange-event/57507517#57507517
           <UserList userList={userList} />
         </div>
       </form>
